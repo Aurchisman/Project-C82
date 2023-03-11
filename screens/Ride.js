@@ -59,7 +59,7 @@ export default class RideScreen extends Component {
         await this.getBikeDetails(bikeId);
         await this.getUserDetails(userId);
 
-        var transactionType = await this.checkBikeAvailability(bikeId);
+         transactionType = await this.checkBikeAvailability(bikeId);
 
         if (!transactionType) {
             this.setState({ bikeId: "" });
