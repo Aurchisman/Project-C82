@@ -190,11 +190,11 @@ export default class RideScreen extends Component {
                 if (!doc.data().bike_assigned) {
                     // Check and update user eligibility value
                     // whether it should be 'true' or 'false'
-                    isUserEligible =      ;
+                    isUserEligible = true      ;
                 } else {
                     // Check and update user eligibility value
                     // whether it should be 'true' or 'false'
-                    isUserEligible =      ;
+                    isUserEligible =  false    ;
                     Alert.alert("End the current ride to rent another bike.");
                     this.setState({
                         bikeId: ""
