@@ -183,7 +183,7 @@ export default class RideScreen extends Component {
             });
             // Check and update user eligibility value
             // whether it should be 'true' or 'false'
-            isUserEligible =         ;
+            isUserEligible =  false       ;
             Alert.alert("Invalid user id");
         } else {
             userRef.docs.map(doc => {
