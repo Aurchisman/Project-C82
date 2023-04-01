@@ -90,7 +90,7 @@ export default class RideScreen extends Component {
             }
         } else {
             // Check user availability for end ride 
-            var isEligible =            ;
+            var isEligible =   true         ;
 
             if (isEligible) {
                 var { bikeType, userName } = this.state;
